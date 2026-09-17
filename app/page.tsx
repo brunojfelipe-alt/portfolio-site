@@ -1,5 +1,6 @@
 export default function Home() {
   return (
+    <>
     <main>
       <header className="nav">
         <span className="nav-name">Bruno Felipe</span>
@@ -61,6 +62,19 @@ export default function Home() {
           </a>
         </div>
       </section>
+
+      <section id="contato" className="contato">
+        <h2>Quer algo parecido?</h2>
+        <p>Sistema sob medida, sério e testado, para o seu negócio.</p>
+        <a className="email-btn" href="mailto:brunojfelipe@usp.br">
+          brunojfelipe@usp.br
+        </a>
+      </section>
     </main>
+
+    <footer className="footer">
+      <span>© {new Date().getFullYear()} Bruno Felipe</span>
+    </footer>
+    </>
   );
 }

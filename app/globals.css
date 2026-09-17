@@ -70,3 +70,27 @@ body {
   border-radius: 6px;
   border: 1px solid var(--border);
 }
+.contato {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  text-align: center;
+  border-top: 1px solid var(--border);
+}
+.contato h2 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+.contato p { color: var(--muted); margin-bottom: 1.5rem; }
+.email-btn {
+  display: inline-block;
+  color: var(--bg);
+  background: var(--accent);
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.footer {
+  text-align: center;
+  padding: 2rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
