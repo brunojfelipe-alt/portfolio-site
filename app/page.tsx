@@ -32,6 +32,35 @@ export default function Home() {
           </a>
         </div>
       </section>
+
+      <section id="quantsense" className="case">
+        <span className="case-tag">Estudo de caso</span>
+        <h2>QuantSense</h2>
+        <p>
+          Pipeline de 17 módulos para avaliação de risco de uma carteira multi-setor
+          (energia, financeiro, gás, petróleo, tecnologia, cripto): modelos LSTM por
+          setor, backtest causal walk-forward (sem look-ahead bias), classificação de
+          regime de mercado e engine de personalização de carteira.
+        </p>
+        <p>
+          Rigor documentado: 38 auditorias registradas, 9 hipóteses testadas e
+          descartadas por não superarem o desenho simples, viés de sobrevivência
+          medido e exposto no próprio dashboard — não só resultado, mas o processo
+          que chegou até ele.
+        </p>
+        <div className="gallery">
+          <img src="/quantsense/overview.png" alt="Overview de risco por setor" />
+          <img src="/quantsense/pipeline.png" alt="Pipeline de 17 módulos" />
+          <img src="/quantsense/master-ai.png" alt="Módulo IA Mestre" />
+          <img src="/quantsense/discipline.png" alt="Disciplina e cemitério de ideias" />
+          <img src="/quantsense/modules.png" alt="Módulos internos do sistema" />
+        </div>
+        <div className="case-links">
+          <a href="https://github.com/brunojfelipe-alt/quantsense" target="_blank" rel="noopener">
+            Ver repositório →
+          </a>
+        </div>
+      </section>
     </main>
   );
 }
