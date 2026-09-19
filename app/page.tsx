@@ -12,6 +12,8 @@ export default function Home() {
       </header>
 
       <section id="hero" className="hero">
+        <div className="hero-glow" aria-hidden="true" />
+        <span className="hero-kicker">Desenvolvedor freelancer</span>
         <h1>Bruno Felipe</h1>
         <p className="tagline">
           Desenvolvedor freelancer — construo sistemas sob medida (CRMs, automações)
@@ -20,8 +22,10 @@ export default function Home() {
       </section>
 
       <section id="crm" className="case">
-        <span className="case-tag">Estudo de caso</span>
-        <h2>CRM para clínica</h2>
+        <div className="case-head">
+          <span className="case-tag">Estudo de caso</span>
+          <h2>CRM para clínica</h2>
+        </div>
         <p>
           Sistema de gestão de pacientes e agendamentos construído do zero:
           Next.js, SQLite, autenticação, agenda com regras de conflito de horário.
@@ -29,14 +33,16 @@ export default function Home() {
         </p>
         <div className="case-links">
           <a href="https://github.com/brunojfelipe-alt/crm-clinica-demo" target="_blank" rel="noopener">
-            Ver repositório →
+            Ver repositório <span aria-hidden="true">→</span>
           </a>
         </div>
       </section>
 
-      <section id="quantsense" className="case">
-        <span className="case-tag">Estudo de caso</span>
-        <h2>QuantSense</h2>
+      <section id="quantsense" className="case case-featured">
+        <div className="case-head">
+          <span className="case-tag">Estudo de caso</span>
+          <h2>QuantSense</h2>
+        </div>
         <p>
           Pipeline de 17 módulos para avaliação de risco de uma carteira multi-setor
           (energia, financeiro, gás, petróleo, tecnologia, cripto): modelos LSTM por
@@ -50,15 +56,15 @@ export default function Home() {
           que chegou até ele.
         </p>
         <div className="gallery">
-          <img src="/quantsense/overview.png" alt="Overview de risco por setor" />
-          <img src="/quantsense/pipeline.png" alt="Pipeline de 17 módulos" />
-          <img src="/quantsense/master-ai.png" alt="Módulo IA Mestre" />
-          <img src="/quantsense/discipline.png" alt="Disciplina e cemitério de ideias" />
-          <img src="/quantsense/modules.png" alt="Módulos internos do sistema" />
+          <img className="g-1" src="/quantsense/overview.png" alt="Overview de risco por setor" />
+          <img className="g-2" src="/quantsense/pipeline.png" alt="Pipeline de 17 módulos" />
+          <img className="g-3" src="/quantsense/master-ai.png" alt="Módulo IA Mestre" />
+          <img className="g-4" src="/quantsense/discipline.png" alt="Disciplina e cemitério de ideias" />
+          <img className="g-5" src="/quantsense/modules.png" alt="Módulos internos do sistema" />
         </div>
         <div className="case-links">
           <a href="https://github.com/brunojfelipe-alt/quantsense" target="_blank" rel="noopener">
-            Ver repositório →
+            Ver repositório <span aria-hidden="true">→</span>
           </a>
         </div>
       </section>
