@@ -32,6 +32,13 @@ export default function Home() {
             Next.js, SQLite, autenticação, agenda com regras de conflito de horário.
             Pronto para qualquer negócio que precise organizar atendimento e clientes.
           </p>
+          <div className="gallery">
+            <img className="g-1" src="/crm/dashboard.png" alt="Dashboard financeiro do CRM" />
+            <img className="g-2" src="/crm/agenda.png" alt="Agenda de atendimentos" />
+            <img className="g-3" src="/crm/clientes.png" alt="Lista de clientes" />
+            <img className="g-4" src="/crm/procedimentos.png" alt="Procedimentos e serviços" />
+            <img className="g-5" src="/crm/extrato.png" alt="Extrato financeiro" />
+          </div>
           <div className="case-links">
             <a href="https://github.com/brunojfelipe-alt/crm-clinica-demo" target="_blank" rel="noopener">
               Ver repositório <span aria-hidden="true">→</span>
