@@ -121,11 +121,11 @@ button:focus-visible {
 
 .hero-glow {
   position: absolute;
-  top: clamp(2rem, 7vw, 4.5rem);
+  top: clamp(0.5rem, 3vw, 1.5rem);
   left: 0;
-  width: min(620px, 70%);
-  height: 340px;
-  background: radial-gradient(closest-side, rgba(255, 138, 61, 0.24), transparent 72%);
+  width: min(480px, 55%);
+  height: 220px;
+  background: radial-gradient(closest-side, rgba(255, 138, 61, 0.28), transparent 72%);
   pointer-events: none;
   z-index: -1;
 }
