@@ -178,6 +178,7 @@ button:focus-visible {
   background: linear-gradient(165deg, var(--card) 0%, var(--bg-raised) 100%);
   border: 1px solid var(--border);
   border-radius: 18px;
+  box-shadow: 0 0 0 1px rgba(255, 138, 61, 0.03), 0 30px 60px -30px rgba(255, 138, 61, 0.09);
 }
 
 .case + .case { margin-top: 1.75rem; }
