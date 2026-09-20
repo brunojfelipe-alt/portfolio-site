@@ -44,3 +44,8 @@ next-env.d.ts
 /scaffold-tmp/
 /.stash/
 claude_run.json
+claude_run*.json
+/prints-crm/
+CLAUDE.md
+AGENTS.md
+.claude/
