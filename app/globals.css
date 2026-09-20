@@ -122,7 +122,7 @@ button:focus-visible {
 .hero-glow {
   position: absolute;
   top: clamp(0.5rem, 3vw, 1.5rem);
-  left: 0;
+  left: clamp(-3rem, -4vw, -1.5rem);
   width: min(480px, 55%);
   height: 220px;
   background: radial-gradient(closest-side, rgba(255, 138, 61, 0.28), transparent 72%);
