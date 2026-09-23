@@ -78,9 +78,15 @@ export default function Home() {
             </div>
           </ImageLightbox>
           <div className="case-links">
-            <a href="https://github.com/brunojfelipe-alt/quantsense" target="_blank" rel="noopener">
-              Ver repositório <span aria-hidden="true">→</span>
-            </a>
+            <span className="case-link-disabled" title="Repositório privado — sem acesso público">
+              <span className="case-link-state case-link-state--default" aria-hidden="true">
+                Ver repositório <span>→</span>
+              </span>
+              <span className="case-link-state case-link-state--locked" aria-hidden="true">
+                Repositório privado <span>🔒</span>
+              </span>
+              <span className="visually-hidden">Repositório privado — sem acesso público</span>
+            </span>
           </div>
         </section>
       </div>
