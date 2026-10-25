@@ -525,3 +525,27 @@ button:focus-visible {
     margin-right: 0;
   }
 }
+
+/* Language switch */
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-left: 0.5rem;
+  padding-left: 1rem;
+  border-left: 1px solid var(--border, rgba(255, 255, 255, 0.2));
+  font-size: 0.85rem;
+}
+
+.lang-switch a[aria-current="true"] {
+  font-weight: 600;
+  opacity: 1;
+}
+
+.lang-switch a:not([aria-current]) {
+  opacity: 0.6;
+}
+
+.lang-switch a {
+  padding: 0.5rem 0.25rem;
+}
